@@ -4,9 +4,9 @@ title: about
 permalink: /
 subtitle: 
 
-#profile:
-#  align: left
-#  image: lab_approach.jpg
+profile:
+  align: left
+  image: lab_approach.jpg
 #  image_circular: false # crops the image to make it circular
 #  more_info: 
 
