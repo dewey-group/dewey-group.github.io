@@ -21,7 +21,7 @@ In the Dewey lab, we seek to understand the <b>coupled geochemical, biological, 
     <img src="../assets/img/IMG_20190608_123013a.jpg" class="gallery__img" alt="Image 5">
   </figure>
   <figure class="gallery__item gallery__item--3">
-    <img src="../assets/img/IMG_1702a.JPG" class="gallery__img" alt="Image 3">
+    <img src="../assets/img/IMG_1702a.jpg" class="gallery__img" alt="Image 3">
   </figure>
   <figure class="gallery__item gallery__item--6">
     <img src="../assets/img/IMG_1667a.JPG" class="gallery__img" alt="Image 6">
