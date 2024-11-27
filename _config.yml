@@ -10,7 +10,7 @@ email: cdewey@udel.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Environmental Soil Chemistry at University of Delaware
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -77,8 +77,9 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id 
-github_username: # your GitHub user name
+github_username: deweycw
 gitlab_username: # your GitLab user name
+dockerhub_username: deweycw
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
@@ -88,7 +89,7 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: # 0000-0003-1954-8298
+orcid_id: 0000-0003-1954-8298
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
@@ -228,6 +229,8 @@ exclude:
   - _pages/about_einstein.md
   - _pages/blog.md
   - _pages/cv.md
+  - _pages/publications.md
+  - _pages/projects.md
   - purgecss.config.js
   - README.md
   - readme_preview/

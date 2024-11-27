@@ -5,5 +5,8 @@ repo_description_lines_max: 2
 github_repos:
   - deweycw/corems-tools
   - emsl-computing/corems
+  - deweycw/lcicpms
   - deweycw/LCICPMS-ui
   - deweycw/dewey-pflo
+  - deweycw/pflotran-utils
+  - deweycw/dockerfiles

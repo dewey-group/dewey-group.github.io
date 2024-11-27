@@ -5,6 +5,7 @@ title: people
 description:
 nav: true
 nav_order: 2
+social: true # includes social icons at the bottom of the page
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -14,7 +15,7 @@ profiles:
     content: about_cdewey.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Rm 469, Harker ISE Lab</p>
+      <p>Harker ISE Lab</p>
       <p>221 Academy Street</p>
       <p>Newark, DE 19716</p>
       <p>cdewey@udel.edu</p>
