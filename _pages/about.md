@@ -15,21 +15,17 @@ In the Dewey lab, we seek to understand the <b>coupled geochemical, biological, 
 
 <div class="gallery">
   <figure class="gallery__item gallery__item--1">
-    <img src="../assets/img/IMG_20190608_112927a.jpg" class="gallery__img__cover" alt="Image 1">
+    <img src="../assets/img/IMG_20190608_112927a.jpg" class="gallery__img__contain" alt="Image 1">
   </figure>
-  <figure class="gallery__item gallery__item--5">
-    <img src="../assets/img/IMG_20190608_123013a.jpg" class="gallery__img__cover" alt="Image 5">
+  <figure class="gallery__item gallery__item--6">
+    <img src="../assets/img/IMG_20190608_123013a.jpg" class="gallery__img__cover" alt="Image 6">
   </figure>
   <figure class="gallery__item gallery__item--3">
     <img src="../assets/img/IMG_1702a.jpg" class="gallery__img__cover" alt="Image 3">
   </figure>
-  <figure class="gallery__item gallery__item--6">
-    <img src="../assets/img/IMG_1667a.JPG" class="gallery__img__cover" alt="Image 6">
-  </figure>
-  <figure class="gallery__item gallery__item--2">
-    <img src="../assets/img/IMG_1644a.JPG" class="gallery__img__cover" alt="Image 2">
-  </figure>
-  <figure class="gallery__item gallery__item--4">
-    <img src="../assets/img/xsection_mcp.jpg" class="gallery__img__contain" alt="Image 4">
+
+
+  <figure class="gallery__item gallery__item--5">
+    <img src="../assets/img/short_mcp.jpg" class="gallery__img__contain" alt="Image 5">
   </figure>
 </div>
