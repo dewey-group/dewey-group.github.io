@@ -28,7 +28,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width:  $max-content-width;
+  max-width:  800px;//$max-content-width;
 }
 
 // Profile
@@ -50,7 +50,7 @@ html {
   grid-template-columns: repeat(3, 1fr); /* Three equal columns */
   gap: 15px; /* Space between grid items */
   padding: 10px;
-  max-width: 1000px; /* Set a max width for the grid container */
+  max-width: 800px; /* Set a max width for the grid container */
   margin: 0 auto; /* Center the grid horizontally */
   width: 100%; /* Ensure it uses full available width within max-width */
 }
