@@ -1,4 +1,5 @@
-### Assistant Professor
+### Christian Dewey
+#### Assistant Professor
 ##### <a href='https://www.udel.edu/academics/colleges/canr/departments/plant-and-soil-sciences/'>Department of Plant & Soil Sciences<br/>University of Delaware</a>
 ##### <br/>Education
 PhD, Stanford University\
