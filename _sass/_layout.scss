@@ -28,7 +28,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: $max-content-width;
+  max-width:  $max-content-width;
 }
 
 // Profile
@@ -45,91 +45,26 @@ html {
 }
 
 
-.gallery {
+.image-grid {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: 0.5rem; 
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 15px; /* Space between grid items */
+  padding: 10px;
+  max-width: 1000px; /* Set a max width for the grid container */
+  margin: 0 auto; /* Center the grid horizontally */
+  width: 100%; /* Ensure it uses full available width within max-width */
 }
 
-.gallery__img__cover {
+.image-grid img {
   width: 100%;
-  height: 100%;
+  height: 300px; /* Fixed height for uniformity */
   object-fit: cover;
-  display: block; 
+  border-radius: 8px; /* Rounded corners */
+  transition: transform 0.3s ease; /* Smooth zoom effect */
 }
 
-.gallery__img__contain {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block; 
-}
-.gallery__item--1 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 6;
-  
-
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 2;  */
-  /* grid-row: 1 / span 2; */
-}
-
-/*.gallery__item--2 {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 6;
-
-  /** Alternative Syntax **/
-  /* grid-column: 3 / span 2;  */
-  /* grid-row: 1 / span 2; */
-/*}*/
-
-.gallery__item--3 {
-  grid-column-start: 5;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 6;
-
-  /** Alternative Syntax **/
-  /* grid-column: 5 / span 4;
-  grid-row: 1 / span 5; */
-}
-
-/*.gallery__item--4 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 6;
-
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 4;  */
-  /* grid-row: 3 / span 3; */
-/*}*/
-
-.gallery__item--5 {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 6;
-  grid-row-end: 9;
-
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 4; */
-  /* grid-row: 6 / span 3; */
-}
-
-.gallery__item--6 {
-  grid-column-start: 6;
-  grid-column-end: 9;
-  grid-row-start: 6;
-  grid-row-end: 9;
-
-  /** Alternative Syntax **/
-  /* grid-column: 5 / span 4; */
-  /* grid-row: 6 / span 3; */
+.image-grid img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
 }
 
 // TODO: redefine content layout.
