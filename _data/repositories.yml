@@ -2,6 +2,69 @@ github_users:
 
 repo_description_lines_max: 2
 
+# Featured projects with enhanced metadata
+featured_projects:
+  - name: "CoreMS Tools"
+    repo: deweycw/corems-tools
+    category: "Data Analysis"
+    description: "Advanced tools for CoreMS mass spectrometry data processing, enabling high-resolution analysis of dissolved organic matter in environmental samples."
+    impact: "Used in multiple publications for DOM characterization"
+    language: "Python"
+    language_icon: "fab fa-python"
+    status: "Active Development"
+
+  - name: "LC-ICP-MS Pipeline"
+    repo: deweycw/lcicpms
+    category: "Data Analysis"
+    description: "LC-ICP-MS data processing pipeline for elemental analysis and speciation studies"
+    impact: "Comprehensive workflow for metal speciation in environmental samples"
+    language: "Python"
+    language_icon: "fab fa-python"
+    status: "Active Development"
+
+# Data analysis tools
+data_analysis_tools:
+
+  - name: "LC-ICP-MS UI"
+    repo: deweycw/LCICPMS-ui
+    category: "Data Analysis"
+    description: "User interface for LC-ICP-MS data processing and visualization"
+    language: "Python"
+    language_icon: "fab fa-python"
+
+  - name: "CoreMS (EMSL)"
+    repo: emsl-computing/corems
+    category: "Data Analysis"
+    description: "Core mass spectrometry framework developed at EMSL"
+    language: "Python"
+    language_icon: "fab fa-python"
+
+# Modeling and simulation
+modeling_tools:
+  - name: "PFLOTRAN Utilities"
+    repo: deweycw/pflotran-utils
+    category: "Modeling"
+    description: "Reactive transport modeling utilities for PFLOTRAN, simulating biogeochemical cycling in saturated and unsaturated soils"
+    language: "Python"
+    language_icon: "fab fa-python"
+
+  - name: "Bioenergetic PFLOTRAN Modules"
+    repo: deweycw/dewey-pflo
+    category: "Modeling"
+    description: "PFLOTRAN input files and workflows for environmental biogeochemistry modeling"
+    language: "Fortran"
+    language_icon: "fas fa-code"
+
+# Infrastructure and utilities
+utilities:
+  - name: "Docker Containers"
+    repo: deweycw/dockerfiles
+    category: "Infrastructure"
+    description: "Reproducible computational environments for geochemical modeling and data analysis"
+    language: "Docker"
+    language_icon: "fab fa-docker"
+
+# Legacy - keep for backward compatibility
 github_repos:
   - deweycw/corems-tools
   - emsl-computing/corems

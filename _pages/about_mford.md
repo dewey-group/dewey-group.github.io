@@ -1,0 +1,1 @@
+Micah studies environmental biogeochemistry with a focus on wetland systems and nutrient cycling. His research combines field work and laboratory analysis to understand how environmental change affects biogeochemical processes in riparian zones.

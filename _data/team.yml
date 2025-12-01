@@ -1,0 +1,67 @@
+principal_investigator:
+  name: Christian Dewey
+  role: Assistant Professor
+  role_type: pi
+  department: Plant & Soil Sciences
+  image: cdewey_sampling_tillamook.jpg
+  email: cdewey@udel.edu
+  office: Harker ISE Lab, 221 Academy Street
+  google_scholar: hLOygPsAAAAJ
+  orcid: 0000-0003-1954-8298
+  github: deweycw
+  education:
+    - degree: PhD
+      field: Environmental Soil Chemistry
+      institution: Stanford University
+    - degree: MS
+      field: Water Resources Management
+      institution: University of Wisconsin-Madison
+    - degree: BA
+      field: English Literature
+      institution: Carleton College
+
+postdocs:
+  - name: Merissa Morey
+    role: Postdoctoral Researcher
+    role_type: postdoc
+    image: prof_pic.jpg
+    email: mmorey@udel.edu
+    research_interests:
+      - Analytical chemistry
+      - Environmental chemistry
+      - Mass spectrometry
+    education:
+      - degree: PhD
+        field: Chemistry
+        institution: Indiana University
+
+phd_students:
+  - name: Alex Stovall
+    role: PhD Student
+    role_type: phd
+    year_started: 2021
+    image: prof_pic.jpg
+    email: astovall@udel.edu
+    research_interests:
+      - Mass spectrometry
+      - Organic geochemistry
+      - Soil chemistry
+    education:
+      - degree: BS
+        field: Chemistry
+        institution: University of Florida
+
+  - name: Micah Ford
+    role: PhD Student
+    role_type: phd
+    year_started: 2022
+    image: prof_pic.jpg
+    email: mford@udel.edu
+    research_interests:
+      - Soil biogeochemistry
+      - Field methods
+      - Wetland ecology
+    education:
+      - degree: BS
+        field: Environmental Science
+        institution: SUNY-Geneseo

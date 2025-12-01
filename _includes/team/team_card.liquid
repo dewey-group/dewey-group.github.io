@@ -1,0 +1,100 @@
+{% assign member = include.member %}
+{% assign is_pi = include.is_pi | default: false %}
+
+<article class="team-card{% if is_pi %} featured-pi{% endif %}" role="listitem">
+  <div class="team-card-image">
+    <img src="{{ '/assets/img/' | append: member.image | relative_url }}"
+         alt="Photo of {{ member.name }}"
+         loading="lazy">
+    {% if member.role_type %}
+      <span class="role-badge role-{{ member.role_type }}" aria-label="Role: {{ member.role }}">
+        {{ member.role }}
+      </span>
+    {% endif %}
+  </div>
+
+  <div class="team-card-content">
+    <header>
+      <h3>{{ member.name }}</h3>
+      {% if member.department %}
+        <p class="department">{{ member.department }}</p>
+      {% endif %}
+    </header>
+
+    <div class="bio">
+      {{ member.content }}
+    </div>
+
+    {% if member.research_interests %}
+      <div class="research-interests">
+        <h4>Research Interests</h4>
+        <ul>
+          {% for interest in member.research_interests %}
+            <li>{{ interest }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    {% if member.education %}
+      <div class="education">
+        <h4>Education</h4>
+        {% for degree in member.education %}
+          <div class="degree">
+            <strong>{{ degree.degree }}</strong>{% if degree.field %}, {{ degree.field }}{% endif %}
+            <br>
+            <span class="institution">{{ degree.institution }}</span>{% if degree.year %}, {{ degree.year }}{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if member.email or member.google_scholar or member.orcid or member.github %}
+      <footer class="team-card-footer">
+        {% if member.office %}
+          <div class="contact-info">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            {{ member.office }}
+          </div>
+        {% endif %}
+
+        <div class="social-links">
+          {% if member.email %}
+            <a href="mailto:{{ member.email }}"
+               aria-label="Email {{ member.name }}"
+               title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          {% endif %}
+          {% if member.google_scholar %}
+            <a href="https://scholar.google.com/citations?user={{ member.google_scholar }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="{{ member.name }}'s Google Scholar profile"
+               title="Google Scholar">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          {% endif %}
+          {% if member.orcid %}
+            <a href="https://orcid.org/{{ member.orcid }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="{{ member.name }}'s ORCID profile"
+               title="ORCID">
+              <i class="ai ai-orcid"></i>
+            </a>
+          {% endif %}
+          {% if member.github %}
+            <a href="https://github.com/{{ member.github }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="{{ member.name }}'s GitHub profile"
+               title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          {% endif %}
+        </div>
+      </footer>
+    {% endif %}
+  </div>
+</article>

@@ -1,0 +1,65 @@
+{% assign project = include.project %}
+{% assign is_featured = include.featured | default: false %}
+
+<article class="repo-card{% if is_featured %} featured{% endif %}" role="listitem">
+  <header>
+    <div class="repo-header-content">
+      <h3>
+        <a href="https://github.com/{{ project.repo }}"
+           aria-label="{{ project.name }} - {{ project.description }}"
+           target="_blank"
+           rel="noopener noreferrer">
+          {{ project.name }}
+        </a>
+      </h3>
+      {% if project.category %}
+        <span class="repo-meta" aria-label="Project category: {{ project.category }}">
+          {{ project.category }}
+        </span>
+      {% endif %}
+    </div>
+    {% if is_featured and project.status %}
+      <span class="repo-badge" aria-label="Project status: {{ project.status }}">
+        {{ project.status }}
+      </span>
+    {% endif %}
+  </header>
+
+  <p class="repo-description">
+    {{ project.description }}
+  </p>
+
+  {% if is_featured and project.impact %}
+    <p class="repo-impact">
+      <strong>Impact:</strong> {{ project.impact }}
+    </p>
+  {% endif %}
+
+  <footer class="repo-stats">
+    {% if project.language %}
+      <span aria-label="Programming language: {{ project.language }}">
+        <i class="{{ project.language_icon | default: 'fas fa-code' }}" aria-hidden="true"></i>
+        {{ project.language }}
+      </span>
+    {% endif %}
+    <span aria-label="View on GitHub">
+      <i class="fab fa-github" aria-hidden="true"></i>
+      GitHub
+    </span>
+  </footer>
+
+  <div class="repo-links">
+    <a href="https://github.com/{{ project.repo }}"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="View {{ project.name }} repository on GitHub">
+      <i class="fab fa-github" aria-hidden="true"></i> View Repository
+    </a>
+    <a href="https://github.com/{{ project.repo }}/issues"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Report issues for {{ project.name }}">
+      <i class="fas fa-bug" aria-hidden="true"></i> Issues
+    </a>
+  </div>
+</article>
