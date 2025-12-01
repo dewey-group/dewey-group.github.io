@@ -1,0 +1,1 @@
+Dr. Morey brings expertise in analytical chemistry and environmental chemistry to the lab. Her research focuses on developing and applying advanced mass spectrometry techniques to study environmental samples and biogeochemical processes.

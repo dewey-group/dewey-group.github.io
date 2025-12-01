@@ -1,0 +1,1 @@
+Alex investigates organic geochemistry and mass spectrometry applications in environmental systems. His research focuses on characterizing dissolved organic matter in wetland and aquatic environments using advanced analytical techniques.
