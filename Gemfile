@@ -28,3 +28,4 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+bundle lock --add-platform x86_64-linux
